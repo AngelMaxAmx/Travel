@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:  'DynaPuff', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 .heder{
-    background-image: url('./img/image\ 1.png');
+    background-image: url('./img/image\ 2.jpg');
     width: 100%;
     background-size: cover;
     height: 100vh;
