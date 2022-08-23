@@ -33,6 +33,7 @@
 }
 .item>span{
     border-bottom: 2px solid transparent;
+    padding: 5px 3px;
 }
 .item:hover>span{
     border-bottom: 2px solid #fff;
