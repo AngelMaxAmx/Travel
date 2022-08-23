@@ -20,11 +20,22 @@
 .menu{
     display: flex;
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
     list-style: none;
 }
 .item{
     padding: 5px 30px;
-   
+    font-weight: regular;
+    border-bottom: 2px solid transparent;
 }
+.item:hover{
+    cursor: pointer;
+}
+.item>span{
+    border-bottom: 2px solid transparent;
+}
+.item:hover>span{
+    border-bottom: 2px solid #fff;
+}
+
 
