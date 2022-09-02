@@ -409,7 +409,6 @@
     width: fit-content;
     width: 1540px;
     margin-top: 70px;
-    cursor: pointer;
 }
 .connect-item{
     border-radius: 16px;
@@ -420,19 +419,27 @@
     justify-content: space-between;
     width: 342px;
     height: 343px;
-    align-content: center;
+    align-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
 }
 .connect-content{
-    display: grid;
-    align-content: stretch;  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+width: 310px;
+height: 87px;
 }
 .connect-item>img{
     border-radius: 16px;
     width: 310px;
     height: 200px;
+    bottom: 16px;
+    cursor: pointer;
 }
 .context1{
     display: block;
@@ -454,4 +461,68 @@
     line-height: 20px;
     color: #9c9c9c;
     font-weight: 400;
+}
+.prefooter{
+    display: flex;
+    width: 1540px;
+    height: 583px;
+    position: absolute;
+}
+.prefooterimg{
+    display: flex;
+    height: 100%;
+    width: 583px;
+    margin-top: 75px;
+}
+.pre-footer-item{
+    color: #fff;
+    font-size: regular;
+    display: flex;
+    width: 100%;
+    height: 543px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    transition: all 0.2s ease-in-out; 
+    align-content: center;
+    margin-top: 75px;
+    position: absolute;
+}
+.pre-footer-item::after{
+    content: "";
+    background: linear-gradient(90deg, rgb(0 0 0 ) 0%, rgb(20 20 20 / 35%) 55%, rgb(0 0 0) 100%);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+}
+   
+.pre-footer-phone{
+    position: absolute;
+    width: 306.76px;
+    height: 577.47px;
+    left: 131.62px;
+    top: 75px;
+
+    z-index: 2;
+}
+    
+.phone{
+    display: flex;
+    left: 132px;
+}
+.pre-footer-item-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute
+}
+.pre-footer-item-text{
+
 }
